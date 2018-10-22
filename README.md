@@ -1,6 +1,23 @@
 
 # Hópverkefni 1
 
+## Hvernig keyra á verkefnið
+
+* Fyrst skal gera nýtt local repository með því að búa til nýja möppu og skrifa "git init"
+* Næst skal skrifa "git clone" og slóð "https://github.com/arg49/hopverkefni1"
+
+## Lýsing
+
+
+## Allir sem unnu að verkefninu
+
+* Arnþór Guðmundsson           - arg49
+* Jóhann Sigurður Jóhannsson   - JohannSJohannsson
+* Kristófer Darri Finnsson
+
+
+# Hópverkefni 1
+
 Verkefnið felst í því að smíða vef eftir forskrift.
 
 Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ásamt `1500px` án grindar og yfirliti yfir virkni vefs í `utlit/video.mp4`.
