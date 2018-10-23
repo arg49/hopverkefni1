@@ -4,8 +4,21 @@
 ## Hvernig keyra á verkefnið
 
 * Fyrst skal gera nýtt local repository með því að búa til nýja möppu og skrifa "git init"
-* Næst skal skrifa "git clone" og slóð "https://github.com/arg49/hopverkefni1"
+* Næst skal skrifa "git clone" og slóð: https://github.com/arg49/hopverkefni1
+* Svo þarf að setja upp nodejs (ef það er ekki nú þegar sett inn) af þessari slóð: https://nodejs.org/en/
+* Mæli með að adda stylelint extension í Visual studio code
 
+* Til að keyra :
+
+    ```bash
+    npm install
+    npm run dev
+    npm run browser stack
+
+* Til að keyra stylelint:
+
+    ```bash
+    npm run lint
 ## Lýsing
 
 
@@ -13,7 +26,7 @@
 
 * Arnþór Guðmundsson           - arg49
 * Jóhann Sigurður Jóhannsson   - JohannSJohannsson
-* Kristófer Darri Finnsson
+* Kristófer Darri Finnsson     - KristoferDarri
 
 
 # Hópverkefni 1
