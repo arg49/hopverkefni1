@@ -14,11 +14,33 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
+  font-size: 16px;
+}
 
-  // TODO fleiri grunn stillingar
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #afb281;
 }
 
 
+.links__head {
+  display: flex;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-family: Verdana;
+  margin-bottom: 0.5em;
+}
 
 // TODO sækja allar sass skrár
 //@import "scss/...";

@@ -11,9 +11,9 @@
 * Til að keyra :
 
     ```bash
+    npm install -g sass
     npm install
     npm run dev
-    npm run browser stack
 
 * Til að keyra stylelint:
 
