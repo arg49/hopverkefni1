@@ -62,6 +62,60 @@ h1 {
   font-family: 'Oswald', Verdana, serif;
   margin-bottom: 0.5em;
 }
+/*Fótur*/
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #cc9694;
+}
+
+.foot__row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 100%;
+}
+
+.foot__col {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fcffd2;
+  font-size: 0.8rem;
+  /*TODO breyta leturgerð hér og í H3*/
+}
+h3{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+@media (max-width: 800px){
+  .foot__row {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+  .foot__col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
 
 // TODO sækja allar sass skrár
 //@import "scss/...";
