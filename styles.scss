@@ -28,18 +28,27 @@ header {
   background-color: #afb281;
 }
 
+header a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
 .links__grid {
   display: flex;
   max-width: 1200px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .karfa__head {
+  display: flex;
   margin-right: 1em;
   margin-left: 1em;
   list-style: none;
+  width: 100px;
 }
 
 .links__head {
@@ -47,13 +56,20 @@ header {
   margin: auto;
   margin-bottom: 1em;
   justify-content: center;
-  padding-left: 4em;
+  padding-left: 7.5em;
 }
 
 .links__head li {
   margin-right: 1em;
   margin-left: 1em;
   list-style: none;
+}
+
+.cart__icon {
+max-width: 30px;
+max-height: 30px;
+padding-right: 10px;
+padding-bottom: 10px;
 }
 
 h1 {
