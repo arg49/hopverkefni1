@@ -87,6 +87,10 @@ h1 {
 =======
 
 /*Forsíða*/
+h2{
+  font-family: 'Oswald', Verdana, serif;
+}
+
 .forgrid__row {
   display: flex;
   flex-direction: column;
@@ -106,6 +110,7 @@ h1 {
   max-width: 100%;
   margin-bottom: 20px;
 }
+
 .fortext {
   margin-bottom: 20px;
 }
@@ -117,6 +122,7 @@ h1 {
 
 .forgrid a{
   text-decoration: none;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .forgrid button {
@@ -130,14 +136,17 @@ h1 {
     font-size: 16px;
     cursor: pointer;
 }
+
 .forgrid button:hover{
   background-color: #000000;
   color: #cc9694;
   cursor: pointer;
 }
+
 .forgrid__col:first-of-type{
   padding: 30px;
 }
+
 .forgrid__col:nth-of-type(3){
   padding: 30px;
 }
@@ -153,6 +162,7 @@ h1 {
     margin-bottom: 40px;
     width: 50%;
   }
+  
   .forgrid__col:nth-of-type(3) {
     order: 2;
   }
@@ -189,16 +199,19 @@ footer a{
   text-decoration: none;
   color: #fcffd2;
   font-size: 0.8rem;
-  /*TODO breyta leturgerð hér og í H3*/
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
+
 h3{
   padding-bottom: 10px;
   padding-top: 10px;
+  font-family: 'Oswald', Verdana, serif;
 }
 
 footer ul {
   list-style: none;
 }
+
 footer::after {
   content: '© 2018 vöruhúsið';
   display: block;
