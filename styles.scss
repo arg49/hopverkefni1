@@ -93,7 +93,7 @@ h1 {
   .links__head {
     padding: 0;
   }
-  
+
   .karfa__head {
     margin-left: auto;
     margin-right: auto;
@@ -108,8 +108,6 @@ h2{
 .forgrid__row {
   display: flex;
   flex-direction: column;
-  margin-left: -10px;
-  margin-right: -10px;
   max-width: 1200px;
   width: 100%;
 }
@@ -117,7 +115,7 @@ h2{
 .forgrid__col {
   width: 100%;
   padding-right: 0px;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 .forimage {
