@@ -79,17 +79,21 @@ h1 {
   font-family: 'Oswald', Verdana, serif;
   margin-bottom: 0.5em;
 }
+
 .links__grid > ul > li > a:hover{
   transition: color 0.3s ease-in-out;
   color: #cee8ff;
 }
+
 @media (max-width:500px){
   .links__grid {
     flex-direction: column;
   }
+
   .links__head {
     padding: 0;
   }
+  
   .karfa__head {
     margin-left: auto;
     margin-right: auto;
@@ -148,6 +152,8 @@ h2{
 }
 
 .forgrid button:hover{
+  transition: background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
   background-color: #000000;
   color: #cc9694;
   cursor: pointer;
@@ -175,6 +181,60 @@ h2{
   
   .forgrid__col:nth-of-type(3) {
     order: 2;
+  }
+}
+
+/*Meginmál Staff*/
+.staffgrid {
+  padding-bottom: 48px;
+}
+
+.staffgrid__row {
+  display: flex;
+  flex-direction: row;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 24px;
+}
+
+.staffgrid__col {
+  width: 50%;
+}
+
+img.karolina {
+  max-width: 100%;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+img.tomas {
+  max-width: 100%;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img.anna {
+  max-width: 100%;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img.jon {
+  max-width: 100%;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 500px){
+  .staffgrid__col{
+    width: 100%;
+    padding-top: 24px;
+  }
+  .staffgrid__row{
+    flex-direction: column;
   }
 }
 
@@ -228,58 +288,10 @@ footer::after {
   padding-top: 10px;
   padding-bottom: 35px;
 }
+
 .foot__col > ul > li > a:hover{
   transition: color 0.3s ease-in-out;
   color: #000000;
-}
-
-/*Meginmál Staff*/
-.staffgrid {
-  padding-bottom: 48px;
-}
-.staffgrid__row {
-  display: flex;
-  flex-direction: row;
-  margin-left: -10px;
-  margin-right: -10px;
-  padding-top: 24px;
-}
-.staffgrid__col {
-  width: 50%;
-}
-
-img.karolina {
-  max-width: 100%;
-  object-fit: contain;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-img.tomas {
-  max-width: 100%;
-  object-fit: contain;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-img.anna {
-  max-width: 100%;
-  object-fit: contain;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-img.jon {
-  max-width: 100%;
-  object-fit: contain;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-@media (max-width: 500px){
-  .staffgrid__col{
-    width: 100%;
-    padding-top: 24px;
-  }
-  .staffgrid__row{
-    flex-direction: column;
-  }
 }
 
 @media (max-width: 800px){
