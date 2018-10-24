@@ -79,12 +79,18 @@ h1 {
   font-family: 'Oswald', Verdana, serif;
   margin-bottom: 0.5em;
 }
-<<<<<<< HEAD
-.links__grid > ul > li > a:hover{
-  transition: color 0.3s ease-in-out;
-  color: #cee8ff;
+@media (max-width:500px){
+  .links__grid {
+    flex-direction: column;
+  }
+  .links__head {
+    padding: 0;
+  }
+  .karfa__head {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-=======
 
 /*Forsíða*/
 h2{
@@ -168,7 +174,6 @@ h2{
   }
 }
 
->>>>>>> 7eaab6c4d106a6b5687b070f991c5b951ab92336
 /*Fótur*/
 footer{
   display: flex;
@@ -225,13 +230,52 @@ footer::after {
 }
 
 /*Meginmál Staff*/
+.staffgrid {
+  padding-bottom: 48px;
+}
 .staffgrid__row {
   display: flex;
   flex-direction: row;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 24px;
 }
 .staffgrid__col {
-  display: flex;
   width: 50%;
+}
+
+img.karolina {
+  max-width: 100%;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+img.tomas {
+  max-width: 100%;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+img.anna {
+  max-width: 100%;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+img.jon {
+  max-width: 100%;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (max-width: 500px){
+  .staffgrid__col{
+    width: 100%;
+    padding-top: 24px;
+  }
+  .staffgrid__row{
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 800px){
@@ -248,17 +292,5 @@ footer::after {
   }
 }
 
-@media (max-width:500px){
-  .links__grid {
-    flex-direction: column;
-  }
-  .links__head {
-    padding: 0;
-  }
-  .karfa__head {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 // TODO sækja allar sass skrár
 //@import "scss/...";
