@@ -79,6 +79,10 @@ h1 {
   font-family: 'Oswald', Verdana, serif;
   margin-bottom: 0.5em;
 }
+.links__grid > ul > li > a:hover{
+  transition: color 0.3s ease-in-out;
+  color: #cee8ff;
+}
 @media (max-width:500px){
   .links__grid {
     flex-direction: column;
