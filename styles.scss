@@ -15,6 +15,7 @@ html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
   font-size: 16px;
+  min-width: 250px;
 }
 
 main {
@@ -217,5 +218,17 @@ footer::after {
   }
 }
 
+@media (max-width:500px){
+  .links__grid {
+    flex-direction: column;
+  }
+  .links__head {
+    padding: 0;
+  }
+  .karfa__head {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 // TODO sækja allar sass skrár
 //@import "scss/...";
