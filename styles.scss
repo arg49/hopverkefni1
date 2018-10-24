@@ -79,10 +79,86 @@ h1 {
   font-family: 'Oswald', Verdana, serif;
   margin-bottom: 0.5em;
 }
+<<<<<<< HEAD
 .links__grid > ul > li > a:hover{
   transition: color 0.3s ease-in-out;
   color: #cee8ff;
 }
+=======
+
+/*Forsíða*/
+.forgrid__row {
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  margin-right: -10px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.forgrid__col {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 10px;
+}
+
+.forimage {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.fortext {
+  margin-bottom: 20px;
+}
+
+.fortext p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.forgrid a{
+  text-decoration: none;
+}
+
+.forgrid button {
+    background-color: #cc9694;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px 90px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.forgrid button:hover{
+  background-color: #000000;
+  color: #cc9694;
+  cursor: pointer;
+}
+.forgrid__col:first-of-type{
+  padding: 30px;
+}
+.forgrid__col:nth-of-type(3){
+  padding: 30px;
+}
+
+@media (min-width: 800px) {
+  .forgrid__row {
+    flex-direction: row;
+    flex-flow: row wrap;
+    margin-top: 50px;
+  }
+
+  .forgrid__col {
+    margin-bottom: 40px;
+    width: 50%;
+  }
+  .forgrid__col:nth-of-type(3) {
+    order: 2;
+  }
+}
+
+>>>>>>> 7eaab6c4d106a6b5687b070f991c5b951ab92336
 /*Fótur*/
 footer{
   display: flex;
