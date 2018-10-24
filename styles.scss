@@ -22,7 +22,7 @@ main {
   margin: 0 auto;
   max-width: 1200px;
 }
-
+/*Haus*/
 header {
   display: flex;
   flex-direction: column;
@@ -79,6 +79,10 @@ h1 {
   font-family: 'Oswald', Verdana, serif;
   margin-bottom: 0.5em;
 }
+.links__grid > ul > li > a:hover{
+  transition: color 0.3s ease-in-out;
+  color: #cee8ff;
+}
 /*Fótur*/
 footer{
   display: flex;
@@ -129,6 +133,16 @@ footer::after {
 .foot__col > ul > li > a:hover{
   transition: color 0.3s ease-in-out;
   color: #000000;
+}
+
+/*Meginmál Staff*/
+.staffgrid__row {
+  display: flex;
+  flex-direction: row;
+}
+.staffgrid__col {
+  display: flex;
+  width: 50%;
 }
 
 @media (max-width: 800px){
