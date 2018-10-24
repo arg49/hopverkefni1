@@ -28,17 +28,38 @@ header {
   background-color: #afb281;
 }
 
+.links__grid {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.karfa__head {
+  margin-right: 1em;
+  margin-left: 1em;
+  list-style: none;
+}
 
 .links__head {
   display: flex;
   margin: auto;
   margin-bottom: 1em;
+  justify-content: center;
+  padding-left: 4em;
+}
+
+.links__head li {
+  margin-right: 1em;
+  margin-left: 1em;
+  list-style: none;
 }
 
 h1 {
   font-size: 3em;
   text-align: center;
-  font-family: Verdana;
+  font-family: 'Oswald', Verdana, serif;
   margin-bottom: 0.5em;
 }
 
