@@ -11,6 +11,7 @@
   box-sizing: inherit;
 }
 
+
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
@@ -265,6 +266,71 @@ img.jon {
   .staffgrid__row{
     flex-direction: column;
   }
+}
+
+
+
+.prod__row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  
+}
+
+.prod__col {
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+.prod__img{
+  max-width: 100%;
+}
+
+.prod__sec {
+  max-width: 100%;
+}
+
+.prod__price {
+  font-weight: bold;
+  font-size: 1.30em;
+}
+
+.b__button {
+  height: 30px;
+  width: 120px;
+  background: transparent;
+}
+
+input {
+  border-radius: 5px;
+  background: transparent;
+  height: 30px;
+  width: 120px;
+}
+
+.prod__des {
+  line-height: 30px;
+  font-family: Arial, sans-serif
+  margin-top 30px;
+}
+
+.gb__text {
+  padding-bottom: 30px;
+}
+
+.pine__text {
+  padding-bottom: 30px;
+}
+
+.run__text {
+  padding-bottom: 60px;
+}
+
+.cam__text {
+  padding-bottom: 60px;
 }
 
 /*Fótur*/
