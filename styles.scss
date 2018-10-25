@@ -93,7 +93,7 @@ h1 {
   .links__head {
     padding: 0;
   }
-  
+
   .karfa__head {
     margin-left: auto;
     margin-right: auto;
@@ -108,8 +108,6 @@ h2{
 .forgrid__row {
   display: flex;
   flex-direction: column;
-  margin-left: -10px;
-  margin-right: -10px;
   max-width: 1200px;
   width: 100%;
 }
@@ -117,7 +115,7 @@ h2{
 .forgrid__col {
   width: 100%;
   padding-right: 0px;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 .forimage {
@@ -287,13 +285,15 @@ footer{
   width: 100%;
   max-width: 1200px;
 }
+.foot__col:first-of-type{
+  padding-left: 20px;
+}
 
 .foot__col {
   display: flex;
   flex-direction: column;
   width: 25%;
-  padding-right: 20px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 footer a{
@@ -303,7 +303,7 @@ footer a{
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-h3{
+footer h3{
   padding-bottom: 10px;
   padding-top: 10px;
   font-family: 'Oswald', Verdana, serif;
@@ -337,6 +337,10 @@ footer::after {
     display: flex;
     flex-direction: column;
     width: 50%;
+  }
+
+  .foot__col:nth-of-type(3){
+    padding-left: 20px;
   }
 }
 
