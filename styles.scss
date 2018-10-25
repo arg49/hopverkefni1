@@ -110,7 +110,7 @@ h1 {
 }
 
 /*Forsíða*/
-h2{
+.forgrid h2{
   font-family: 'Oswald', Verdana, serif;
 }
 
@@ -137,7 +137,7 @@ h2{
 }
 
 .fortext p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 20px;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -192,6 +192,15 @@ h2{
 
   .forgrid__row:nth-child(2n) .forgrid__col:first-child {
     order: 2;
+  }
+
+  .forgrid h2{
+    margin-bottom: 30px;
+    margin-top: 40px
+  }
+
+  .forgrid button{
+    padding: 10px 50px;
   }
 
 }
