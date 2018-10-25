@@ -389,12 +389,27 @@ input {
   width: 100%;
   padding-right: 10px;
   padding-left: 10px;
-  margin-top: 48px;
+  margin-top: 24px;
 }
 .cartgrid__col.efni{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.cartgrid__col.efni h2{
+  font-family: 'Oswald', Verdana, serif;
+  padding-bottom: 12px;
+}
+.fjoldi p{
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  padding-bottom: 12px;
+}
+.cartgrid__col.efni h3{
+  font-family: 'Oswald', Verdana, serif;
+  padding-bottom: 5px;
+}
+.cartgrid__col.efni p{
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .col__karfa{
   flex-direction: row;
@@ -422,11 +437,11 @@ input {
   margin-left: 8px;
 }
 .cartgrid__button:nth-of-type(2n+1){
-  padding-top: 18px;
+  padding-top: 31px;
   width: 82px;
 }
 .cartgrid__button:nth-of-type(2n){
-  padding-top: 18px;
+  padding-top: 31px;
   width: 108px;
 }
 
@@ -468,11 +483,29 @@ input {
   .cartgrid__col.info{
     width: 50%;
   }
+  .cartgrid__col.efni h2{
+    padding-bottom: 0px;
+  }
+  .fjoldi p{
+    padding-bottom: 0px;
+  }
+  .cartgrid__col.efni h3{
+    padding-bottom: 0px;
+  }
+  .cartgrid__button:nth-of-type(2n+1){
+    padding-top: 20px;
+  }
+  .cartgrid__button:nth-of-type(2n){
+    padding-top: 20px;
+  }
 }
 @media (min-width: 800px){
   .cartgrid__row.info{
     margin-left: 16.5%;
     margin-right: 16.5%;
+  }
+  .cartgrid__col.img{
+    width: 50%;
   }
 }
 
