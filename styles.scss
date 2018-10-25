@@ -394,6 +394,44 @@ input {
 .cartgrid__col.info{
   margin-top: 16px;
 }
+
+.cartgrid__button{
+  list-style: none; 
+}
+
+.cartgrid__button .cart__ic{
+  max-height: 12px;
+  max-width: 12px;
+  margin-right: 5px;
+}
+
+.cartgrid__button a{
+  text-decoration: none;
+}
+
+.cartgrid__button p{
+  padding-left: 2px;
+  word-break: none;
+}
+
+.cartgrid__button button{
+  background-color: transparent;
+  border: solid #000000 0.4px;
+  border-radius: 2px;
+  color: #000000;
+  padding: 2px 5px;
+  text-align: left;
+  display: inline;
+  flex-direction: row;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cartgrid__button :hover{
+  background-color: #cc9694;
+  transition: all ease-in-out 0.3s;
+}
+
 @media (min-width: 500px){
   .cartgrid__col.img{
     width: 33.333%;
