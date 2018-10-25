@@ -169,7 +169,10 @@ h1 {
 }
 
 .forgrid__col:first-of-type{
-  padding: 30px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
 }
 
 .forgrid__col:nth-of-type(3){
@@ -197,11 +200,11 @@ h1 {
 
   .forgrid__row:nth-child(2n) .forgrid__col:first-child {
     order: 2;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-top: 0px;
   }
   .forgrid__row:nth-child(2n+1) .forgrid__col:first-child {
-    padding-left: 0px;
+    padding-left: 10px;
     padding-top: 0px;
   }
 
