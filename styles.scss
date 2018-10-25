@@ -118,8 +118,8 @@ h1 {
 .forgrid__row {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
-  width: 100%;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .forgrid__col {
@@ -182,7 +182,10 @@ h1 {
     flex-flow: row wrap;
     margin-top: 50px;
   }
-
+  .forgrid__col.img{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .forgrid__col {
     margin-bottom: 40px;
     width: 50%;
