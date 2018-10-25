@@ -396,6 +396,15 @@ input {
   padding-left: 10px;
   margin-top: 48px;
 }
+.cartgrid__col.efni{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.col__karfa{
+  flex-direction: row;
+  display: flex;
+}
 .cartimage{
   width: 100%;
 }
@@ -413,8 +422,17 @@ input {
   margin-right: 5px;
 }
 
-.cartgrid__button a{
+.cartgrid__button {
   text-decoration: none;
+  margin-left: 8px;
+}
+.cartgrid__button:nth-of-type(2n+1){
+  padding-top: 18px;
+  width: 82px;
+}
+.cartgrid__button:nth-of-type(2n){
+  padding-top: 18px;
+  width: 108px;
 }
 
 .cartgrid__button p{
@@ -426,12 +444,13 @@ input {
   border: solid #000000 0.4px;
   border-radius: 2px;
   color: #000000;
-  padding: 2px 5px;
   text-align: left;
   display: flex;
   flex-direction: row;
   font-size: 12px;
   cursor: pointer;
+  padding: 8px;
+  width: 100%;
 }
 
 .cartgrid__button :hover{
