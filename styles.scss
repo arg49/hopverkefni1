@@ -21,6 +21,14 @@ html { /* stylelint-disable-line */
 main {
   margin: 0 auto;
   max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 1200px){
+  main{
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 /*Haus*/
 header {
@@ -267,7 +275,45 @@ img.jon {
     flex-direction: column;
   }
 }
-
+/*Karfa*/
+.cartgrid__row{
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.cartgrid__col{
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 48px;
+}
+.cartimage{
+  width: 100%;
+}
+.cartgrid__col.info{
+  margin-top: 16px;
+}
+@media (min-width: 500px){
+  .cartgrid__col.img{
+    width: 33.333%;
+  }
+  .cartgrid__col{
+    margin-top: 24px;
+  }
+  .cartgrid__row{
+    flex-direction: row;
+  }
+  .cartgrid__col.info{
+    width: 50%;
+  }
+}
+@media (min-width: 800px){
+  .cartgrid__row.info{
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+  }
+}
 /*Fótur*/
 footer{
   display: flex;
