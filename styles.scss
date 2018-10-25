@@ -220,14 +220,9 @@ h1 {
 }
 @media (min-width: 1500px){
   .forgrid__row:nth-child(2n) .forgrid__col:first-child {
-    order: 2;
-    padding-left: 10px;
-    padding-top: 0px;
     margin-top: 8.5%;
   }
   .forgrid__row:nth-child(2n+1) .forgrid__col:first-child {
-    padding-left: 0px;
-    padding-top: 0px;
     margin-top: 8.5%;
   }
 }
@@ -437,6 +432,7 @@ input {
 
 .cartgrid__button p{
   padding-left: 2px;
+  white-space: nowrap;
 }
 
 .cartgrid__button button{
@@ -452,6 +448,7 @@ input {
   padding: 8px;
   width: 100%;
 }
+
 
 .cartgrid__button :hover{
   background-color: #cc9694;
