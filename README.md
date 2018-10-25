@@ -12,6 +12,7 @@
 
     ```bash
     npm install -g sass
+    npm install -g browser-sync
     npm install
     npm run dev
 
