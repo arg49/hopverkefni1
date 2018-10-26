@@ -24,6 +24,7 @@ main {
   padding-left: 20px;
   margin: 0 auto;
 }
+
 @media (min-width: 1200px) {
   main {
     padding-right: 0;
@@ -221,6 +222,7 @@ h1 {
   }
 
 }
+
 @media (min-width: 1500px) {
   .forgrid__row:nth-child(2n) .forgrid__col:first-child {
     margin-top: 8.5%;
@@ -615,6 +617,7 @@ h2 {
     margin-top: 0;
   }
 }
+
 @media (min-width: 800px) {
   .cartgrid__row.info {
     margin-right: 16.5%;
