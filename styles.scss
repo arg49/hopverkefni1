@@ -422,20 +422,21 @@ input {
   margin-top: 16px;
 }
 
-.cartgrid__button{
-  list-style: none; 
-}
-
 .cartgrid__button .cart__ic{
-  max-height: 12px;
-  max-width: 12px;
+  max-height: 15px;
+  max-width: 15px;
   margin-right: 5px;
 }
 
 .cartgrid__button {
-  text-decoration: none;
+  list-style: none; 
   margin-left: 8px;
 }
+
+.cartgrid__button a{
+  text-decoration: none;
+}
+
 .cartgrid__button:nth-of-type(2n+1){
   padding-top: 31px;
   width: 82px;
@@ -460,10 +461,9 @@ input {
   flex-direction: row;
   font-size: 12px;
   cursor: pointer;
-  padding: 8px;
+  padding: 8px 8px 8px 5px;
   width: 100%;
 }
-
 
 .cartgrid__button :hover{
   background-color: #cc9694;
