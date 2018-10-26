@@ -276,17 +276,17 @@ img.jon {
     flex-direction: column;
   }
 }
-<<<<<<< HEAD
 
 
+/*Vöru síða */
 
 .prod__row {
   display: flex;
   flex-direction: row;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
-  
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
 
 .prod__col {
@@ -294,6 +294,7 @@ img.jon {
   max-width: 1200px;
   flex-wrap: wrap;
   margin-right: 20px;
+
 }
 .prod__img{
   max-width: 100%;
@@ -326,6 +327,9 @@ input {
   font-family: Arial, sans-serif
   margin-top 30px;
 }
+.watch__text {
+  padding-bottom: 30px;
+}
 
 .gb__text {
   padding-bottom: 30px;
@@ -343,7 +347,20 @@ input {
   padding-bottom: 60px;
 }
 
-=======
+.b__button:hover {
+  transition: all 0.3s ease-in-out;
+  background: #000000;
+  color: #cc9694;
+  cursor: pointer;
+}
+
+.b__button::before {
+  background: url(img/cart.svg);
+  float: left;
+  width: 120px;
+  height: 30px;
+}
+
 /*Karfa*/
 .cartgrid__row{
   display: flex;
@@ -383,7 +400,6 @@ input {
     margin-right: 16.5%;
   }
 }
->>>>>>> 45503f49c76c3ee65aadf9fbee4225200be6e853
 /*Fótur*/
 footer{
   display: flex;
