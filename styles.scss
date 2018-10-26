@@ -301,7 +301,7 @@ img.jon {
   left: 0;
   display: block;
   font-family: Oswald, Verdana, serif;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   transform: rotateY(180deg);
@@ -335,21 +335,59 @@ img.jon {
 /* Vörur */
 .prod__row {
   display: flex;
-  margin-top: 60px;
-  margin-right: auto;
-  margin-bottom: 120px;
-  margin-left: 20px;
-  flex-direction: row;
+  margin-right: -10px;
+  margin-left: -10px;
+  flex-direction: column;
 }
-
+.prod__row:last-of-type{
+  margin-bottom: 70px;
+}
 .prod__col {
   width: 100%;
-  max-width: 1200px;
-  flex-wrap: wrap;
-  margin-right: 20px;
-
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 48px;
 }
-
+.prod__magn{
+  display: flex;
+}
+.prod__button button{
+  display: flex;
+  width: 100%;
+  padding: 8px 8px 8px 5px;
+  font-size: 12px;
+  color: #000;
+  text-align: left;
+  cursor: pointer;
+  flex-direction: row;
+  background-color: transparent;
+  border: solid #000 0.4px;
+  border-radius: 2px;
+}
+.prod__button{
+  margin-left: 8px;
+  list-style: none;
+  min-width: 110px;
+}
+.prod__button a{
+  text-decoration: none;
+}
+.prod__button p{
+  padding-left: 2px;
+  white-space: nowrap;
+}
+.prod__button :hover {
+  background-color: #cc9694;
+  transition: ease-in-out 0.3s;
+}
+.prod__magn .cart__ic{
+  max-width: 15px;
+  max-height: 15px;
+  margin-right: 5px;
+}
+.prod__des h2{
+  font-size: 2em;
+}
 .prod__img {
   max-width: 100%;
 }
@@ -359,8 +397,9 @@ img.jon {
 }
 
 .prod__price {
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
+  font-family: 'Oswald', Verdana, serif;
 }
 
 .b__button {
@@ -374,6 +413,7 @@ input {
   height: 30px;
   background: transparent;
   border-radius: 5px;
+  width: 50%;
 }
 
 .prod__des {
@@ -415,7 +455,20 @@ input {
   height: 30px;
   background: url(img/cart.svg);
 }
-
+@media (min-width: 500px){
+  .prod__row{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .prod__col{
+    width: 50%;
+  }
+}
+@media (min-width: 800px){
+  .prod__col{
+    width: 33.3333%;
+  }
+}
 /* Karfa */
 
 .cartgrid__row {
