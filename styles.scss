@@ -416,7 +416,7 @@ input {
   flex-direction: column;
   justify-content: space-between;
 }
-.cartgrid__col.efni h2{
+h2{
   font-family: 'Oswald', Verdana, serif;
   padding-bottom: 12px;
 }
@@ -428,7 +428,10 @@ input {
   font-family: 'Oswald', Verdana, serif;
   padding-bottom: 5px;
 }
-.cartgrid__col.efni p{
+.cartgrid__col p{
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.cartgrid__col label{
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .col__karfa{
@@ -439,9 +442,25 @@ input {
   width: 100%;
 }
 .cartgrid__col.info{
-  margin-top: 16px;
+  margin-top: 24px;
 }
-
+.uppl{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.uppl label{
+  margin-right: 12px;
+}
+.uppl input{
+  width: 275px;
+  min-width: 0px;
+}
+.uppl select{
+  min-width: 0px;
+  height: 30px;
+  border-radius: 5px;
+}
 .cartgrid__button .cart__ic{
   max-height: 15px;
   max-width: 15px;
@@ -489,7 +508,30 @@ input {
   background-color: #cc9694;
   transition: all ease-in-out 0.3s;
 }
-
+.kaupa{
+  background-color: #cc9694;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px 90px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.kaupa:hover{
+  transition: all 0.3s ease-in-out;
+  background: #000000;
+  color: #cc9694;
+  cursor: pointer;
+}
+.kaupa__takki{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
 @media (min-width: 500px){
   .cartgrid__col.img{
     width: 33%;
@@ -499,6 +541,7 @@ input {
   }
   .cartgrid__row{
     flex-direction: row;
+    margin-bottom: 24px;
   }
   .cartgrid__col.info{
     width: 50%;
@@ -517,6 +560,15 @@ input {
   }
   .cartgrid__button:nth-of-type(2n){
     padding-top: 20px;
+  }
+  .uppl{
+    padding-bottom: 20px;
+  }
+  .cartgrid__col.info h2{
+    padding-bottom: 20px;
+  }
+  .kaupa__takki{
+    margin-top: 0px;
   }
 }
 @media (min-width: 800px){
