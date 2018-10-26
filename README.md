@@ -3,12 +3,20 @@
 
 ## Hvernig keyra á verkefnið
 
-* Fyrst skal gera nýtt local repository með því að búa til nýja möppu og skrifa "git init"
-* Næst skal skrifa "git clone" og slóð: https://github.com/arg49/hopverkefni1
-* Svo þarf að setja upp nodejs (ef það er ekki nú þegar sett inn) af þessari slóð: https://nodejs.org/en/
-* Mæli með að adda stylelint extension í Visual studio code
+* Fyrst skal gera nýtt local repository með því að búa til nýja möppu, opna git í þeirri möppu og skrifa inn skipunina "git init"
 
-* Til að keyra :
+* Næst skal skrifa "git clone" og vísa í eftirfarandi slóð: 
+    
+    ```bash
+    https://github.com/arg49/hopverkefni1
+
+Það virkar líka að gera þetta fyrst án þess að hafa gert "git init".
+
+* Svo þarf að setja upp nodejs (ef það er ekki nú þegar sett inn) af þessari slóð: https://nodejs.org/en/, annað hvort nýjustu útgáfu eða útgáfu 8.12.0.
+
+* Við mælum með að bæta við stylelint extension í Visual studio code.
+
+* Til að keyra forritin í möppunni skal slá inn eftirfarandi skipanir:
 
     ```bash
     npm install -g sass
@@ -16,12 +24,73 @@
     npm install
     npm run dev
 
+* Ef það virkar ekki að keyra dev eða ef sass og/eða browser-sync fara ekki sjálfkrafa af stað skal prófa að keyra sass og/eða browser-sync sérstaklega með eftirfarandi skipunum:
+
+    ```bash
+    npm run sass
+    npm run browser-sync
+
+Svo skal reyna run dev aftur.
+
 * Til að keyra stylelint:
 
     ```bash
     npm run lint
+
+* Til að uppfæra repository og setja þínar breytingar inná git:
+
+    ```bash
+    git status
+    git pull
+    git commit -a
+    -> þú færð upp nýjan valglugga og þarft að gera eftirfarandi:
+       i
+       skifa inn hverju var breytt 
+       ýta á esc
+       :wq
+    git push origin <branch> <- Við unnum bara með branch = master
+
 ## Lýsing
 
+* Verkefnið er allt geymt inni í möppu sem ber heitið "hopverkefni1" og inni í henni eru eftirfarandi skrár:
+     ```bash
+     Aðal:
+     index.html
+     grid.css
+     README.md
+     styles.scss
+     styles.css
+
+     Auka:
+     .editorconfig
+     .gitattributes
+     .gitignore
+     .stylelintrc
+     package.json
+     package-lock.json
+
+     Möppur:
+     img
+     pages
+     scss
+     utlit
+     node_modules
+
+* Inni í möppunni "pages" má finna html fyrir allar síður nema forsíðu
+    ```bash
+    products.html er síðan með sýnir vöruúrval Vöruhússins.
+    staff.html er fyrir síðuna með upplýsingum um starfsfólk.
+    cart.html er fyrir síðuna með innkaupakörfunni.
+
+* Í img möppu má finna myndirnar sem eru á síðunni, í utlit möppu er fyrirmynd að útliti á síðunum og í efni má finna allan texta sem notaður er á síðunum.
+
+* CSS skjalið er skipulagt þannig að efst eru grunn skipanir sem eiga við öll html skjölin, svo eru skipanir fyrir haus efst, svo forsíðu, næst starfsmannasíðu, svo vörusíðu, næst körfusíðu og að lokum kemur fóturinn neðst.
+
+* Við unnum verkefnið þannig að Arnþór sá um haus, starfsmannasíðu og körfusíðu, Jóhann sá um fót, forsíðu og körfusíðu, Kristófer sá um vörusíðu og svo hjálpuðust allir að fyrir tilfallandi vandamál.
+
+* Í öllum html skjölunum má finna sama haus og fót en svo skrifaði hver og einn html fyrir þá síðu sem hann var að vinna að.
+
+* Þetta README skjal er skrifað af Arnþóri og Jóhanni.
 
 ## Allir sem unnu að verkefninu
 
@@ -30,7 +99,7 @@
 * Kristófer Darri Finnsson     - KristoferDarri
 
 
-# Hópverkefni 1
+# Verkefnislýsing frá kennara að hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
