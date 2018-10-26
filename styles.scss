@@ -306,6 +306,7 @@ img.jon {
   text-align: center;
   transform: rotateY(180deg);
 }
+
 .face.back h2 {
   padding-top: 55%;
   padding-bottom: 16px;
@@ -339,19 +340,23 @@ img.jon {
   margin-left: -10px;
   flex-direction: column;
 }
+
 .prod__row:last-of-type{
   margin-bottom: 70px;
 }
+
 .prod__col {
   width: 100%;
   padding-right: 10px;
   padding-left: 10px;
   margin-top: 48px;
 }
-.prod__magn{
+
+.prod__magn {
   display: flex;
 }
-.prod__button button{
+
+.prod__button button {
   display: flex;
   width: 100%;
   padding: 8px 8px 8px 5px;
@@ -364,30 +369,37 @@ img.jon {
   border: solid #000 0.4px;
   border-radius: 2px;
 }
-.prod__button{
+
+.prod__button {
+  min-width: 110px;
   margin-left: 8px;
   list-style: none;
-  min-width: 110px;
 }
-.prod__button a{
+
+.prod__button a {
   text-decoration: none;
 }
-.prod__button p{
+
+.prod__button p {
   padding-left: 2px;
   white-space: nowrap;
 }
+
 .prod__button :hover {
   background-color: #cc9694;
   transition: ease-in-out 0.3s;
 }
-.prod__magn .cart__ic{
+
+.prod__magn .cart__ic {
   max-width: 15px;
   max-height: 15px;
   margin-right: 5px;
 }
-.prod__des h2{
+
+.prod__des h2 {
   font-size: 2em;
 }
+
 .prod__img {
   max-width: 100%;
 }
@@ -397,9 +409,9 @@ img.jon {
 }
 
 .prod__price {
+  font-family: Oswald, Verdana, serif;
   font-size: 1.5em;
   font-weight: bold;
-  font-family: 'Oswald', Verdana, serif;
 }
 
 .b__button {
@@ -455,20 +467,22 @@ input {
   height: 30px;
   background: url(img/cart.svg);
 }
-@media (min-width: 500px){
-  .prod__row{
+@media (min-width: 500px) {
+  .prod__row {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .prod__col{
+
+  .prod__col {
     width: 50%;
   }
 }
-@media (min-width: 800px){
-  .prod__col{
+@media (min-width: 800px) {
+  .prod__col {
     width: 33.3333%;
   }
 }
+
 /* Karfa */
 
 .cartgrid__row {
@@ -536,15 +550,18 @@ h2 {
 .uppl label {
   margin-right: 12px;
 }
+
 .uppl input {
   width: 275px;
   min-width: 0;
 }
+
 .uppl select {
   min-width: 0;
   height: 30px;
   border-radius: 5px;
 }
+
 .cartgrid__button .cart__ic {
   max-width: 15px;
   max-height: 15px;
@@ -564,6 +581,7 @@ h2 {
   width: 82px;
   padding-top: 31px;
 }
+
 .cartgrid__button:nth-of-type(2n) {
   width: 108px;
   padding-top: 31px;

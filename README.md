@@ -86,7 +86,7 @@ Svo skal reyna run dev aftur.
 
 * CSS skjalið er skipulagt þannig að efst eru grunn skipanir sem eiga við öll html skjölin, svo eru skipanir fyrir haus efst, svo forsíðu, næst starfsmannasíðu, svo vörusíðu, næst körfusíðu og að lokum kemur fóturinn neðst.
 
-* Við unnum verkefnið þannig að Arnþór sá um haus, starfsmannasíðu og körfusíðu, Jóhann sá um fót, forsíðu og körfusíðu, Kristófer sá um vörusíðu og svo hjálpuðust allir að fyrir tilfallandi vandamál.
+* Við unnum verkefnið þannig að Arnþór sá um haus, starfsmannasíðu, körfusíðu og kláraði vörusíðu (vegna fjarveru Kristófers), Jóhann sá um fót, forsíðu og körfusíðu, Kristófer sá um vörusíðu og svo hjálpuðust allir að fyrir tilfallandi vandamál.
 
 * Í öllum html skjölunum má finna sama haus og fót en svo skrifaði hver og einn html fyrir þá síðu sem hann var að vinna að.
 
