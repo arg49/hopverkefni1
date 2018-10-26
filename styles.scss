@@ -11,37 +11,38 @@
   box-sizing: inherit;
 }
 
-
 html { /* stylelint-disable-line */
+  min-width: 250px;
   box-sizing: border-box;
   overflow-x: hidden;
   font-size: 16px;
-  min-width: 250px;
 }
 
 main {
-  margin: 0 auto;
   max-width: 1200px;
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
 }
-@media (min-width: 1200px){
-  main{
-    padding-left: 0;
+@media (min-width: 1200px) {
+  main {
     padding-right: 0;
+    padding-left: 0;
   }
 }
-/*Haus*/
+
+/* Haus */
+
 header {
   display: flex;
   flex-direction: column;
   background-color: #afb281;
 }
 
-header a {
+header > a {
   font-weight: bold;
-  text-decoration: none;
   color: #333;
+  text-decoration: none;
 }
 
 .links__grid {
